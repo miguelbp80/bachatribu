@@ -119,7 +119,7 @@
 
   const renderStudio = ({ studio }) => {
     document.getElementById("studio-name").textContent = studio.nombre;
-    document.getElementById("studio-title").textContent = studio.titulo;
+    document.getElementById("studio-title").textContent = studio.nombre;
     document.getElementById("studio-tagline").textContent = studio.lema;
     document.getElementById("studio-description").textContent = studio.descripcion;
     document.getElementById("footer-text").textContent = `© ${new Date().getFullYear()} ${studio.nombre}`;

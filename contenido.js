@@ -21,8 +21,7 @@
 
 window.CONTENIDO = {
   estudio: {
-    nombre: "Nombre del Estudio",
-    titulo: "Clases de baile, fincas y viajes bailables desde Colombia",
+    nombre: "BachaTribu",
     lema: "Baila. Conecta. Disfruta.",
     descripcion:
       "Clases para todos los niveles, planes en fincas de Antioquia, socials en Bogotá y Cali, y viajes internacionales para bailar en Argentina, República Dominicana y Brasil.",
