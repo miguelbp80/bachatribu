@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <rect width="800" height="1000" fill="#141110"/>
+  <rect width="800" height="640" fill="#1f1b19"/>
+  
+    <circle cx="400" cy="280" r="230" fill="none" stroke="#e8691a" stroke-width="10"/>
+    <circle cx="400" cy="280" r="170" fill="none" stroke="#f3e4c4" stroke-width="4" opacity="0.7"/>
+    <circle cx="400" cy="280" r="110" fill="#e8691a"/>
+    <circle cx="400" cy="280" r="40" fill="#141110"/>
+  <rect x="22" y="22" width="756" height="956" rx="40" fill="none" stroke="#e8691a" stroke-width="8"/>
+  <text x="64" y="590" font-size="26" font-family="Helvetica, Arial, sans-serif" font-weight="700" letter-spacing="4" fill="#e8691a">EVENTOS NACIONALES</text>
+  <text x="64" y="650" font-size="74" font-family="Georgia, serif" font-weight="700" fill="#f3e4c4">Gran Social</text><text x="64" y="734" font-size="74" font-family="Georgia, serif" font-weight="700" fill="#f3e4c4">Bogotá</text>
+  <text x="64" y="842" font-size="38" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#e8691a">5 DIC 2026</text>
+  <text x="64" y="890" font-size="30" font-family="Helvetica, Arial, sans-serif" fill="#f3e4c4">Bogotá</text>
+  <text x="64" y="934" font-size="26" font-family="Helvetica, Arial, sans-serif" fill="#b8ab93">$60.000 COP</text>
+  <text x="736" y="948" text-anchor="end" font-size="18" font-family="Helvetica, Arial, sans-serif" letter-spacing="2" fill="#b8ab93" opacity="0.7">FLYER DEMOSTRATIVO</text>
+</svg>

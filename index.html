@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="es-CO">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clases de baile, fincas y viajes bailables en Colombia | Nombre del Estudio</title>
+  <meta name="description" content="Clases de salsa y bachata, planes bailables en fincas de Antioquia, socials en Bogotá y Cali, y viajes a Argentina, República Dominicana y Brasil. Agenda en Google Calendar.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#141110">
+  <link rel="canonical" href="https://miguelbp80.github.io/bachatribu/">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="apple-touch-icon" href="assets/logo.png">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_CO">
+  <meta property="og:site_name" content="Nombre del Estudio">
+  <meta property="og:title" content="Clases de baile, fincas y viajes bailables en Colombia">
+  <meta property="og:description" content="Salsa, bachata, fincas en Antioquia, socials en Bogotá y Cali y viajes internacionales para bailar.">
+  <meta property="og:url" content="https://miguelbp80.github.io/bachatribu/">
+  <meta property="og:image" content="https://miguelbp80.github.io/bachatribu/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Logo de Nombre del Estudio">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Clases de baile, fincas y viajes bailables en Colombia">
+  <meta name="twitter:description" content="Salsa, bachata, fincas en Antioquia, socials en Bogotá y Cali y viajes internacionales para bailar.">
+  <meta name="twitter:image" content="https://miguelbp80.github.io/bachatribu/assets/og-image.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "DanceSchool",
+    "name": "Nombre del Estudio",
+    "description": "Clases de baile, planes en fincas de Antioquia, eventos nacionales y viajes bailables internacionales.",
+    "url": "https://miguelbp80.github.io/bachatribu/",
+    "logo": "https://miguelbp80.github.io/bachatribu/assets/logo.png",
+    "image": "https://miguelbp80.github.io/bachatribu/assets/og-image.png",
+    "areaServed": ["Antioquia", "Bogotá", "Cali", "Colombia"],
+    "address": { "@type": "PostalAddress", "streetAddress": "Calle Ejemplo 123", "addressLocality": "Medellín", "addressRegion": "Antioquia", "addressCountry": "CO" }
+  }
+  </script>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#eventos">Saltar al contenido</a>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Inicio">
+      <span class="logo-circle"><img src="assets/logo.png" alt="" width="48" height="48"></span>
+      <span class="brand-name" id="studio-name">Nombre del Estudio</span>
+    </a>
+    <nav class="site-nav" aria-label="Principal">
+      <a href="#eventos">Eventos</a>
+      <a href="#clases">Clases</a>
+      <a href="#calendario">Calendario</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <span class="logo-circle logo-circle--hero"><img src="assets/logo.png" alt="Logo de Nombre del Estudio" width="190" height="190"></span>
+      <h1 id="studio-title">Clases de baile, fincas y viajes bailables desde Colombia</h1>
+      <p class="hero-tagline" id="studio-tagline">Baila. Conecta. Disfruta.</p>
+      <p class="hero-description" id="studio-description">Clases para todos los niveles, planes en fincas de Antioquia, socials en Bogotá y Cali, y viajes internacionales para bailar.</p>
+      <div class="hero-actions">
+        <a class="button" href="#eventos">Ver eventos</a>
+        <a class="button button--ghost" href="#clases">Ver clases</a>
+      </div>
+    </section>
+
+    <section class="section" id="eventos" aria-labelledby="eventos-title">
+      <h2 id="eventos-title">Próximos eventos</h2>
+      <p class="section-intro">Fincas en Antioquia, eventos en Colombia y viajes internacionales.</p>
+      <div class="filters" id="event-filters" role="group" aria-label="Filtrar eventos por categoría"></div>
+      <div class="event-grid" id="events-list">
+        <noscript><p>Activa JavaScript para ver los próximos eventos.</p></noscript>
+      </div>
+    </section>
+
+    <section class="section" id="clases" aria-labelledby="clases-title">
+      <h2 id="clases-title">Clases semanales</h2>
+      <p class="section-intro">Agrega la clase a tu Google Calendar y recibe el recordatorio cada semana.</p>
+      <div class="card-grid" id="classes-list"></div>
+    </section>
+
+    <section class="section" id="calendario" aria-labelledby="calendario-title">
+      <h2 id="calendario-title">Calendario</h2>
+      <p class="section-intro">Consulta todas las fechas y agenda tu lugar.</p>
+      <div class="calendar-actions" id="calendar-actions"></div>
+      <div class="calendar-frame" id="calendar-frame"></div>
+    </section>
+
+    <section class="section" id="contacto" aria-labelledby="contacto-title">
+      <h2 id="contacto-title">Contacto</h2>
+      <ul class="contact-list" id="contact-list"></ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span id="footer-text"></span>
+  </footer>
+
+  <script src="contenido.js"></script>
+  <script src="calendar-links.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

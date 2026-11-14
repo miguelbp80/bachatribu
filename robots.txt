@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://miguelbp80.github.io/bachatribu/sitemap.xml
